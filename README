@@ -1,0 +1,21 @@
+/*
+ * PoC / prolomeni captcha ochrany seznam.cz
+ * OVX - Patrik Šíma
+ * Únor 2009
+ * 
+ * Princip: registracni formulare Seznamu jsou chraneny captchou,
+ * jejiz prolomeni je mozne pouze za pouziti komplikovanych ocr
+ * nastroju. Pokud je captcha dobre nastavena je pouziti techto
+ * nastroju temer vylouceno. Bohuzel pro uzivatele, cim bezpecnejsi
+ * captcha je, tim hure je citelna.
+ * I presto, ze je captcha Seznamu dobre citelna a uzivatel by nemel
+ * mit problem s jejim prectenim, muze si pripadne lusteni ulehcit tim,
+ * ze si obsah obrazku necha prehrat pomoci zvukove nahravky.
+ * Souhlasim s tim, ze je to dobre pro uzivatele, ale v tomto provedeni
+ * mene dobre pro bezpecnost.
+ * Nyni jiz nemusime zkouset prolomit ochranu pomoci slozitych ocr nastroju,
+ * ale staci nam, abychom z nekolika takovych nahravek ziskali vzorky
+ * jednotlivych pismen, ktere pak snadno porovname s aktualne vygenerovanym
+ * bezpecnostnim audio vzorkem, a petipismenny obsah je na svete.
+ */
+
